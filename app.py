@@ -1,9 +1,9 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+
 # Leer los datos
-car_data = pd.read_csv(
-    'C:/Users/Usuario/Proyectos/Tripleten_Sprint_7/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 # Crear casillas de verificacion.
 build_histogram = st.checkbox('Construir un histograma')
 build_scatter = st.checkbox('Construir un gráfico de dispersión')
