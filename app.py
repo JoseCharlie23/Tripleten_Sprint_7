@@ -5,6 +5,7 @@ import streamlit as st
 st.header('Analisis de Datos de Vehiculos Usados')
 st.subheader('Explora las caracteristicas de los autos en Estados Unidos')
 st.write('Esta app permite visualizar histogramas y graficos de dispersion.\nVisualiza segun:')
+
 # Leer los datos
 car_data = pd.read_csv('vehicles_us.csv')
 # Crear casillas de verificacion.
